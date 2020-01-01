@@ -1,0 +1,4 @@
+#Wed Jan 01 14:12:28 CST 2020
+base.0=C\:\\Users\\10618\\AndroidStudioProjects\\phone_test2.0\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

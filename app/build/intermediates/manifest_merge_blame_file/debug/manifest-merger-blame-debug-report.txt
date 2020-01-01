@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.phone_test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml
+10    <!-- 读取通讯录权限 -->
+11    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+11-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:5:5-72
+11-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:5:22-69
+12    <uses-permission android:name="android.permission.READ_CONTACTS" />
+12-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:6:5-72
+12-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:6:22-69
+13    <!-- 写入通讯录权限 -->
+14    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+14-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:8:5-73
+14-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:8:22-70
+15    <!-- 拨号权限 -->
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:10:5-69
+16-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:10:22-66
+17    <!-- 读短信权限 -->
+18    <uses-permission android:name="android.permission.READ_SMS" />
+18-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:12:5-67
+18-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:12:22-64
+19    <!-- 发送短信权限 -->
+20    <uses-permission android:name="android.permission.SEND_SMS" />
+20-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:14:5-66
+20-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:14:22-64
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:10:5-69
+21-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:10:22-66
+22
+23    <application
+23-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:16:5-30:19
+24        android:allowBackup="true"
+24-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:17:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\10618\.gradle\caches\transforms-2\files-2.1\279861f12c057092d1e6acc85106df71\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:18:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:19:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:20:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:21:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:22:9-40
+33        <activity android:name="com.example.phone_test.MainActivity" >
+33-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:23:9-29:20
+33-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:23:19-47
+34            <intent-filter>
+34-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:24:13-28:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:25:17-69
+35-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:27:17-77
+37-->C:\Users\10618\AndroidStudioProjects\phone_test2.0\app\src\main\AndroidManifest.xml:27:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>
